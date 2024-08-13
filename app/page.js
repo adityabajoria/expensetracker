@@ -1,3 +1,11 @@
+import Calculate from "@/components/Calculate";
+import Transaction from "@/components/Transaction";
+
 export default function Home() {
-  return <main>Hello, Expense Tracker</main>;
+  return (
+    <main>
+      <Calculate />
+      <Transaction />
+    </main>
+  );
 }
